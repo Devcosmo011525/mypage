@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+* {font-family: 'Noto Sans KR', sans-serif;}
+
+.title {
+    background-color: lightblue;
+    color: white;
+    font-size: 35px;
+    padding: 5px 15px;
+    border-radius: 8px;
+
+}
+
+.bg {
+    width: 360px;
+    background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+
+}
+
+.sub-head {
+    font-weight: bold;
+}
+
+.bucket {
+    width: 160px;
+    height: 160px;
+}
+.img1 {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+    background-size: cover;
+    background-position: center;
+}
